@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.race.house.houseracelamp.MainActivity">
+
+    <TextView
+        android:id="@+id/scroll_to_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Programming is fantasic"/>
+
+    <TextView
+        android:id="@+id/scroll_by_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="what do u wanna be?"/>
+
+    <com.race.house.houseracelamp.MyScrollTextView
+        android:id="@+id/scroll_self_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="the power and desire will define what u r !!!"/>
+
+    <Button
+        android:id="@+id/scroll_by_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:onClick="scrollBy"
+        android:text="scroll_by"
+        />
+
+    <Button
+        android:id="@+id/scroll_to_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="scrollTo"
+        android:text="scroll_to"
+        />
+
+    <Button
+        android:id="@+id/house_rase_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startHouseRace"
+        android:text="start_house_race"
+        />
+
+    <Button
+        android:id="@+id/house_rase_stop_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="stopHouseRace"
+        android:text="stop_house_race"
+        />
+
+</LinearLayout>
